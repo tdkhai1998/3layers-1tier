@@ -4,3 +4,7 @@ C:\Users\trand\source\repos\3layers-1tier\ClassLibrary2\obj\Debug\DTO.csprojAsse
 C:\Users\trand\source\repos\3layers-1tier\ClassLibrary2\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\trand\source\repos\3layers-1tier\ClassLibrary2\obj\Debug\ClassLibrary2.dll
 C:\Users\trand\source\repos\3layers-1tier\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
+D:\ThietKePhanMem\Sources\3layers-1tier\ClassLibrary2\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\ThietKePhanMem\Sources\3layers-1tier\ClassLibrary2\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\ThietKePhanMem\Sources\3layers-1tier\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+D:\ThietKePhanMem\Sources\3layers-1tier\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

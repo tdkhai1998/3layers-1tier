@@ -25,7 +25,7 @@ namespace DTO
             TheLoai = "";
             SoLuong = -1;
         }
-        public object[] toArray(obmấch)
+        public object[] toArray(bool masach)
         {
             return new object[]
             {
