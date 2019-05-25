@@ -19,5 +19,9 @@ namespace BUS
         {
             return SachDAO.Insert(a)==1?true:false;
         }
+        public static bool Update(Sach a)
+        {
+            return SachDAO.Update(a) == 1 ? true : false;
+        }
     }
 }

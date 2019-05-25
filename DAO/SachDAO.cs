@@ -18,5 +18,11 @@ namespace DAO
             String query = "INSERT INTO SACH VALUES( @0 , @1 , @2 , @3 , @4 , @5 , @6  )";
             return DataProvider.Instance.ExecuteNonQuery(query, sach.toArray());
         }
+
+        public static int Update(Sach a)
+        {
+            String query = "INSERT INTO SACH VALUES( @0 , @1 , @2 , @3 , @4 , @5 , @6  )";
+            return DataProvider.Instance.ExecuteNonQuery(query, sach.toArray());
+        }
     }
 }

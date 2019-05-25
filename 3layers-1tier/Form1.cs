@@ -37,9 +37,10 @@ namespace _3layers_1tier
             InsertNew fm = new InsertNew();
             fm.ShowDialog();
         }
-        private void Edit()
+        private void Edit(Sach s)
         {
-            
+            InsertNew fm = new InsertNew(s);
+            fm.ShowDialog();
         }
     }
 }
