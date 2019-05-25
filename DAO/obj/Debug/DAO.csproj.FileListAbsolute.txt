@@ -11,3 +11,16 @@ C:\Users\trand\source\repos\3layers-1tier\DAO\obj\Debug\DAO.dll
 C:\Users\trand\source\repos\3layers-1tier\DAO\obj\Debug\DAO.pdb
 C:\Users\trand\source\repos\3layers-1tier\DAO\bin\Debug\ClassLibrary2.dll
 C:\Users\trand\source\repos\3layers-1tier\DAO\bin\Debug\ClassLibrary2.pdb
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\obj\Debug\DAO.dll
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\obj\Debug\DAO.pdb
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\bin\Debug\DAO.dll
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\bin\Debug\DAO.pdb
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\bin\Debug\ClassLibrary2.dll
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\bin\Debug\MySql.Data.dll
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\bin\Debug\Google.Protobuf.dll
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\bin\Debug\BouncyCastle.Crypto.dll
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\bin\Debug\ClassLibrary2.pdb
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\bin\Debug\MySql.Data.xml
+D:\ThietKePhanMem\Sources\3layers-1tier\DAO\obj\Debug\DAO.csproj.CopyComplete

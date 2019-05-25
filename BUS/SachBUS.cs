@@ -15,9 +15,9 @@ namespace BUS
         {
             return SachDAO.SelectAll();
         }
-        public static int Insert(Sach a)
+        public static bool Insert(Sach a)
         {
-            return SachDAO.Insert(a);
+            return SachDAO.Insert(a)==1?true:false;
         }
     }
 }

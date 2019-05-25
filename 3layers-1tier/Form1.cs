@@ -34,8 +34,12 @@ namespace _3layers_1tier
 
         private void btn_insert_Click(object sender, EventArgs e)
         {
-            Sach s = new Sach();
-            MessageBox.Show( SachBUS.Insert(s).ToString());
+            InsertNew fm = new InsertNew();
+            fm.ShowDialog();
+        }
+        private void Edit()
+        {
+            
         }
     }
 }
