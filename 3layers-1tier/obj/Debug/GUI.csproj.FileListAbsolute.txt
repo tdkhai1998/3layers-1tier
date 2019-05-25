@@ -33,7 +33,6 @@ D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\bin\Debug\ClassLibrary2.pd
 D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\bin\Debug\MySql.Data.xml
 D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\bin\Debug\DAO.pdb
 D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\obj\Debug\GUI.csprojAssemblyReference.cache
-D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\obj\Debug\_3layers_1tier.Form1.resources
 D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\obj\Debug\_3layers_1tier.InsertNew.resources
 D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\obj\Debug\_3layers_1tier.Properties.Resources.resources
 D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\obj\Debug\GUI.csproj.GenerateResource.cache
@@ -41,3 +40,4 @@ D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\obj\Debug\GUI.csproj.CoreC
 D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\obj\Debug\GUI.csproj.CopyComplete
 D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\obj\Debug\3layers-1tier.exe
 D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\obj\Debug\3layers-1tier.pdb
+D:\ThietKePhanMem\Sources\3layers-1tier\3layers-1tier\obj\Debug\_3layers_1tier.SÁCH.resources

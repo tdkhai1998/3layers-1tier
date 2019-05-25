@@ -58,6 +58,9 @@
             this.textBox_soLuong.Name = "textBox_soLuong";
             this.textBox_soLuong.Size = new System.Drawing.Size(204, 22);
             this.textBox_soLuong.TabIndex = 1;
+            this.textBox_soLuong.Text = "1";
+            this.textBox_soLuong.TextChanged += new System.EventHandler(this.textBox_soLuong_TextChanged);
+            this.textBox_soLuong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_soLuong_KeyPress);
             // 
             // textBox_tacGia
             // 
@@ -73,6 +76,7 @@
             this.textBox_namXuatBan.Name = "textBox_namXuatBan";
             this.textBox_namXuatBan.Size = new System.Drawing.Size(204, 22);
             this.textBox_namXuatBan.TabIndex = 4;
+            this.textBox_namXuatBan.Text = "2019";
             this.textBox_namXuatBan.ValidatingType = typeof(int);
             // 
             // textBox_theLoai

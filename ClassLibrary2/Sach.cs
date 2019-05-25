@@ -48,5 +48,26 @@ namespace DTO
                SoLuong
             };
         }
+        public object[] toArrayNotID()
+        {
+            return new object[]
+            {
+               TenSach,
+               NamXuatBan,
+               TacGia,
+               TomTat,
+               TheLoai,
+               SoLuong
+            };
+        }
+        public int isValid()
+        {
+            if (TenSach.Equals("")) return 1;
+            if (TacGia.Equals("")) return 2;
+            if (SoLuong <= 0) return 3;
+            if (TheLoai.Equals("")) return 4;
+            if (TomTat.Equals("")) return 5;
+            return 0;
+        }
     }
 }

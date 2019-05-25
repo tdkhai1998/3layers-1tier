@@ -23,5 +23,9 @@ namespace BUS
         {
             return SachDAO.Update(a) == 1 ? true : false;
         }
+        public static bool Detete(int masach)
+        {
+            return SachDAO.Delete(masach) == 1 ? true : false;
+        }
     }
 }

@@ -45,23 +45,50 @@ namespace _3layers_1tier
             sach_moi.TomTat = this.textBox_tomTat.Text;
             sach_moi.SoLuong = int.Parse(this.textBox_soLuong.Text);
             sach_moi.NamXuatBan = int.Parse(this.textBox_namXuatBan.Text);
-            if (SachBUS.Insert(sach_moi))
+            switch (sach_moi.isValid())
             {
-                foreach (Control i in this.Controls)
-                {
-                    if (i is TextBox || i is MaskedTextBox || i is ComboBox)
+                case 0:
+                    if (SachBUS.Insert(sach_moi))
                     {
-                        i.Text = "";
+                        foreach (Control i in this.Controls)
+                        {
+                            if (i is TextBox || i is MaskedTextBox || i is ComboBox)
+                            {
+                                i.Text = "";
+                            }
+                        }
+                        if (MessageBox.Show("Đã thêm thành công") == DialogResult.OK)
+                        {
+                            this.DialogResult = DialogResult.OK;
+                            this.Close();
+                        }
+                        
                     }
-                }
-                MessageBox.Show("Đã thêm thành công");
-
+                    else
+                    {
+                        MessageBox.Show("Thất bại");
+                        this.DialogResult = DialogResult.No;
+                    }
+                    break;
+                case 1:
+                    MessageBox.Show("VUI LÒNG NHẬP TÊN SÁCH");
+                    break;
+                case 2:
+                    MessageBox.Show("VUI LÒNG NHẬP TÊN TÁC GIẢ");
+                    break;
+                case 3:
+                    MessageBox.Show("SỐ LƯỢNG PHẢI LỚN HƠN 0");
+                    break;
+                case 4:
+                    MessageBox.Show("VUI LÒNG NHẬP THỂ LOẠI");
+                    break;
+                case 5:
+                    MessageBox.Show("VUI LÒNG NHẬP TÓM TẮT");
+                    break;
             }
-            else
-            {
-                MessageBox.Show("Thất bại");
-            }
+            
         }
+
         private void ChinhSua()
         {
             sach_chinh_sua.TenSach = this.textBox_tenSach.Text;
@@ -70,7 +97,39 @@ namespace _3layers_1tier
             sach_chinh_sua.TomTat = this.textBox_tomTat.Text;
             sach_chinh_sua.SoLuong = int.Parse(this.textBox_soLuong.Text);
             sach_chinh_sua.NamXuatBan = int.Parse(this.textBox_namXuatBan.Text);
-            if(Bus)
+            switch (sach_chinh_sua.isValid())
+            {
+                case 0:
+                    if (SachBUS.Update(sach_chinh_sua))
+                    {
+                        if (MessageBox.Show("Cập nhật thành công") == DialogResult.OK)
+                        {
+                            this.DialogResult = DialogResult.OK;
+                            this.Close();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Cập nhật thất bại rồi");
+                        this.DialogResult = DialogResult.No;
+                    }
+                    break;
+                case 1:
+                    MessageBox.Show("VUI LÒNG NHẬP TÊN SÁCH");
+                    break;
+                case 2:
+                    MessageBox.Show("VUI LÒNG NHẬP TÊN TÁC GIẢ");
+                    break;
+                case 3:
+                    MessageBox.Show("SỐ LƯỢNG PHẢI LỚN HƠN 0");
+                    break;
+                case 4:
+                    MessageBox.Show("VUI LÒNG NHẬP THỂ LOẠI");
+                    break;
+                case 5:
+                    MessageBox.Show("VUI LÒNG NHẬP TÓM TẮT");
+                    break;
+            }
         }
         private void btn_themMoi_Click(object sender, EventArgs e)
         {
@@ -85,6 +144,17 @@ namespace _3layers_1tier
 
         }
 
-        
+        private void textBox_soLuong_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void textBox_soLuong_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

@@ -16,8 +16,11 @@ namespace DAO
         }
 
         public DataProvider() { }
-
-        private string connectionSTR = "server=localhost;user id=root;persistsecurityinfo=True;database=quanlisach;allowuservariables=True;pwd=123456789";
+        private static string pass = "123456789";
+        private static string server = "localhost";
+        private static string user = "root";
+        private static string databasename = "quanlisach";
+        private string connectionSTR = "server="+server+";user id="+user+";persistsecurityinfo=True;database="+databasename+";allowuservariables=True;pwd="+pass;
 
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
