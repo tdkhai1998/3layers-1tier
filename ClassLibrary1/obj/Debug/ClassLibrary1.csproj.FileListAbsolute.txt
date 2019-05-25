@@ -1,5 +1,0 @@
-C:\Users\trand\source\repos\3layers-1tier\ClassLibrary1\bin\Debug\ClassLibrary1.dll
-C:\Users\trand\source\repos\3layers-1tier\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
-C:\Users\trand\source\repos\3layers-1tier\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
-C:\Users\trand\source\repos\3layers-1tier\ClassLibrary1\obj\Debug\ClassLibrary1.dll
-C:\Users\trand\source\repos\3layers-1tier\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

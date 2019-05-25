@@ -1,0 +1,5 @@
+D:\ThietKePhanMem\Sources\3layers-1tier\DTO\bin\Debug\DTO.dll
+D:\ThietKePhanMem\Sources\3layers-1tier\DTO\bin\Debug\DTO.pdb
+D:\ThietKePhanMem\Sources\3layers-1tier\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\ThietKePhanMem\Sources\3layers-1tier\DTO\obj\Debug\DTO.dll
+D:\ThietKePhanMem\Sources\3layers-1tier\DTO\obj\Debug\DTO.pdb

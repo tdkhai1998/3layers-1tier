@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C51E149-95EE-4600-81DD-AD2E6EA25688}</ProjectGuid>
+    <ProjectGuid>{12CCBBFE-F4C0-4ECF-A8C0-564BF9795856}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BUS</RootNamespace>
@@ -41,17 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SachBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SachBUS.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary2\DTO.csproj">
-      <Project>{864196d1-b44a-43c6-acad-6286d44f2777}</Project>
-      <Name>DTO</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DAO\DAO.csproj">
-      <Project>{aeeb23b0-7827-4fe6-9f52-54c9dd2dff47}</Project>
+      <Project>{a287d982-39cb-4bda-8b97-3121f11e3b00}</Project>
       <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{84fc0fbd-4f10-4e03-9c20-7fc8462a744d}</Project>
+      <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
