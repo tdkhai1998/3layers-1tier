@@ -1,0 +1,6 @@
+C:\Users\trand\source\repos\3layers-1tier\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\Users\trand\source\repos\3layers-1tier\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\Users\trand\source\repos\3layers-1tier\ClassLibrary2\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\trand\source\repos\3layers-1tier\ClassLibrary2\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\trand\source\repos\3layers-1tier\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\Users\trand\source\repos\3layers-1tier\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

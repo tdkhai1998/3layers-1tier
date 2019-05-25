@@ -1,0 +1,15 @@
+C:\Users\trand\source\repos\3layers-1tier\BUS\bin\Debug\BUS.dll
+C:\Users\trand\source\repos\3layers-1tier\BUS\bin\Debug\BUS.pdb
+C:\Users\trand\source\repos\3layers-1tier\BUS\bin\Debug\DAO.dll
+C:\Users\trand\source\repos\3layers-1tier\BUS\bin\Debug\MySql.Data.dll
+C:\Users\trand\source\repos\3layers-1tier\BUS\bin\Debug\Google.Protobuf.dll
+C:\Users\trand\source\repos\3layers-1tier\BUS\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\trand\source\repos\3layers-1tier\BUS\bin\Debug\DAO.pdb
+C:\Users\trand\source\repos\3layers-1tier\BUS\bin\Debug\MySql.Data.xml
+C:\Users\trand\source\repos\3layers-1tier\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\trand\source\repos\3layers-1tier\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\trand\source\repos\3layers-1tier\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\trand\source\repos\3layers-1tier\BUS\obj\Debug\BUS.dll
+C:\Users\trand\source\repos\3layers-1tier\BUS\obj\Debug\BUS.pdb
+C:\Users\trand\source\repos\3layers-1tier\BUS\bin\Debug\ClassLibrary2.dll
+C:\Users\trand\source\repos\3layers-1tier\BUS\bin\Debug\ClassLibrary2.pdb
